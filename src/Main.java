@@ -10,25 +10,19 @@ public class Main {
         Integer num2;
         Integer num3;
 
-//Maior de três números:Leia três números e exiba qual é o maior deles.
+//Solicite um número e mostre sua tabuada de 1 a 10.
         System.out.println("Digite um número:");
         num1 = sc.nextInt();
-        System.out.println("Digite um número:");
-        num2 = sc.nextInt();
-        System.out.println("Digite um número:");
-        num3 = sc.nextInt();
-        if(num1>num2 && num1>num3){
-            System.out.println("Este numero" + num1 +  " é o maior");
 
-        }
-        else if(num2>num1 && num2>num3){
-            System.out.println("Este numero " + num2 + " é o maior");
-        }
-        else if(num3>num1 && num3>num2){
-            System.out.println("Este numero " + num3 + " é o maior");
-        }
-        else{
-            System.out.println("ERRO!");
-        }
+        System.out.println(num1 + 1);
+        System.out.println(num1 + 2);
+        System.out.println(num1 + 3);
+        System.out.println(num1 + 4);
+        System.out.println(num1 + 5);
+        System.out.println(num1 + 6);
+        System.out.println(num1 + 7);
+        System.out.println(num1 + 8);
+        System.out.println(num1 + 9);
+        System.out.println(num1 + 10);
     }
 }
