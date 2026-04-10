@@ -10,18 +10,12 @@ public class Main {
       int soma = 0;
 
 
-//Leia um número N e calcule a soma de todos os números pares de 1 até N.
+//Verifique se um número informado é primo ou não.
         System.out.println("Digite um número:");
         num1 = sc.nextInt();
 
 
-        for (int i = 0; i <= num1; i++){
-     if(i % 2 == 0){
-         soma += i;
 
-         System.out.println("soma dos pares :" + soma);
-     }
- }
 
     }
 }
