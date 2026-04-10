@@ -21,3 +21,7 @@ Solicite um número e mostre sua tabuada de 1 a 10.
 4.Soma de números pares
 
 Leia um número N e calcule a soma de todos os números pares de 1 até N.
+
+5.Número primo
+
+Verifique se um número informado é primo ou não
