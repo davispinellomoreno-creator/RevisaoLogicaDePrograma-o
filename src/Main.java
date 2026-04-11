@@ -14,7 +14,9 @@ public class Main {
         System.out.println("Digite um número:");
         num1 = sc.nextInt();
 
-
+        if(num1/1 =){
+            System.out.println("Este número é primo");
+        }
 
 
     }
