@@ -6,29 +6,25 @@ public class Main {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
-      int num1;
-     boolean primo = true;
 
-//Verifique se um número informado é primo ou não.
-        System.out.println("Digite um número:");
-        num1 = sc.nextInt();
+      //Contador de vogais:
+        //Leia uma palavra ou frase e conte quantas vogais existem nela.
+      String palavra;
+      int contador = 0;
 
-        if(num1 < 2) {
-            primo = false;
-        }
-        else {
-            for (int i = 2; i <= Math.sqrt(num1); i++) {
-                if (num1 % i == 0) {
-                    primo = false;
-                    break;
-                }
-            }
-        }
-        if (primo) {
-            System.out.println("É primo");
-        } else {
-            System.out.println("Não é primo");
-        }
+        System.out.println("Digite uma palavra");
+        palavra = sc.nextLine();
+
+
+      for(int i = 0;i<palavra.length();i++){
+         char letra = palavra.charAt(i);
+
+          if(letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u'  ){
+             contador++;
+          }
+
+      }
+        System.out.println("A palavra escrita tem " + contador);
 
     }
 
