@@ -25,3 +25,11 @@ Leia um número N e calcule a soma de todos os números pares de 1 até N.
 5.Número primo
 
 Verifique se um número informado é primo ou não
+
+6.Contador de vogais
+
+Leia uma palavra ou frase e conte quantas vogais existem nela.
+
+7. Fatorial
+
+Peça um número e calcule seu fatorial (ex: 5! = 120).
