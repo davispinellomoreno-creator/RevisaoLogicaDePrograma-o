@@ -4,30 +4,22 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
 
-      //Contador de vogais:
-        //Leia uma palavra ou frase e conte quantas vogais existem nela.
-      String palavra;
-      int contador = 0;
+        //Fatorial
 
-        System.out.println("Digite uma palavra");
-        palavra = sc.nextLine();
+        //Peça um número e calcule seu fatorial (ex: 5! = 120).
+
+        int num1 = 5;
+int fatorial = 1;
 
 
-      for(int i = 0;i<palavra.length();i++){
-         char letra = palavra.charAt(i);
-
-          if(letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u'  ){
-             contador++;
-          }
-
-      }
-        System.out.println("A palavra escrita tem " + contador);
-
+for(int i=num1;i>=1;i--){
+        fatorial *= i;
+        }
+        System.out.println("Fatorial é" + fatorial );
     }
-
 }
 
 
