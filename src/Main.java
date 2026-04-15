@@ -11,7 +11,17 @@ public class Main {
         //
         //Peça um número inteiro (ex: 1234) e mostre ele invertido (4321).
 
-        int num1;
+        int num1=1234;
+        int invertido = 0;
+
+        while(num1 != 0){
+            int digito = num1 % 10;
+            invertido = invertido * 10 + digito;
+            num1 = num1/10;
+
+        }
+        System.out.println("Numero invertido :" +
+                 + invertido);
 
     }
 }
