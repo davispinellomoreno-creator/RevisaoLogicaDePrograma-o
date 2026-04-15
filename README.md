@@ -33,3 +33,7 @@ Leia uma palavra ou frase e conte quantas vogais existem nela.
 7. Fatorial
 
 Peça um número e calcule seu fatorial (ex: 5! = 120).
+
+8. Inverter número
+
+Peça um número inteiro (ex: 1234) e mostre ele invertido (4321).
