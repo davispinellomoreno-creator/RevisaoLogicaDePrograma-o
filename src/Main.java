@@ -7,18 +7,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
 
-        //Fatorial
+        // Inverter número
+        //
+        //Peça um número inteiro (ex: 1234) e mostre ele invertido (4321).
 
-        //Peça um número e calcule seu fatorial (ex: 5! = 120).
+        int num1;
 
-        int num1 = 5;
-int fatorial = 1;
-
-
-for(int i=num1;i>=1;i--){
-        fatorial *= i;
-        }
-        System.out.println("Fatorial é" + fatorial );
     }
 }
 
