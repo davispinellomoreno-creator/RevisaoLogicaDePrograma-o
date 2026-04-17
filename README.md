@@ -37,3 +37,8 @@ Peça um número e calcule seu fatorial (ex: 5! = 120).
 8. Inverter número
 
 Peça um número inteiro (ex: 1234) e mostre ele invertido (4321).
+
+9. Sequência de Fibonacci
+
+Mostre os primeiros N números da sequência de Fibonacci.
+Ex: 0, 1, 1, 2, 3, 5...
