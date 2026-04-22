@@ -5,19 +5,22 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Integer senha;
 
-// Testen da mesa proposto no curso nélio alves
+        System.out.println("Digite a senha!");
+        senha = sc.nextInt();
+        //Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha
+        //incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser
+        //impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.
 
-        int x = 5;
-        int y = 3;
-
-        while(x < 20){
-             x = x+1;
-             y = y+1;
-
+        while ( senha == 2202) {
+            if(senha == 2202) {
+                System.out.println("Senha correta!");
+            }
+        else{
+                System.out.println("Senha ivalida!");
+            }
         }
-        System.out.println( x + "/" + y);
-
     }
 }
 
